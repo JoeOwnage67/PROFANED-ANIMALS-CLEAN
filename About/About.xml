@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Profaned Animals Can Clean</name>
+	<author>JoeOwnage</author>
+	<url>https://github.com/JoeOwnage67/</url>
+	<supportedVersions>	
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>JoeDaly.ProfanedPatch</packageId>
+	<loadAfter>
+		<li>BotchJob.Profaned</li>		
+		<li>pphhyy.BoneReapers</li>
+	</loadAfter>
+	<modDependencies>	
+		<li>
+			<packageId>BotchJob.Profaned</packageId>
+			<displayName>The Profaned</displayName>
+		</li>			
+		<li>
+			<packageId>pphhyy.BoneReapers</packageId>
+			<displayName>pphhyy BoneReapers</displayName>
+		</li>
+	</modDependencies>
+	<description>I want my tamed ghouls, skeletons and wraiths to clean the base.
+	</description>
+</ModMetaData>

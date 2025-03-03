@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+<defName>BotchJob_Ghoul</defName>
+<defName>BotchJob_Wraith</defName>
+<defName>BotchJob_Skeleton</defName>
+-->
+
+<Defs>
+
+<!-- Profaned Ghoul -->
+	<ThinkTreeDef>
+		<defName>GhoulClean</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>1</insertPriority>
+		<thinkRoot Class="ThinkNode_ConditionalPawnKind">
+			<pawnKind>BotchJob_Ghoul</pawnKind>
+			<subNodes>
+				<li Class="ThinkNode_ConditionalHasFaction">
+					<subNodes>
+						<!-- Trained behaviour: Clean -->
+						<li Class="ThinkNode_ChancePerHour_Constant">
+							<mtbHours>1</mtbHours>
+							<subNodes>
+								<li Class="ThinkNode_ConditionalRequireCapacities">
+									<requiredCapacities>
+										<li>Manipulation</li>
+									</requiredCapacities>
+									<subNodes>
+										<li Class="ThinkNode_ConditionalTrainableCompleted">
+											<trainable>Haul</trainable>
+											<subNodes>
+												<li Class="ThinkNode_Tagger">
+													<tagToGive>TrainedAnimalBehavior</tagToGive>
+													<subNodes>
+														<li Class="AnimalCleaning.JobGiver_Clean"/>
+													</subNodes>
+												</li>
+											</subNodes>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	
+	
+<!-- Profaned Wraith -->
+<ThinkTreeDef>
+		<defName>WraithClean</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>1</insertPriority>
+		<thinkRoot Class="ThinkNode_ConditionalPawnKind">
+			<pawnKind>BotchJob_Wraith</pawnKind>
+			<subNodes>
+				<li Class="ThinkNode_ConditionalHasFaction">
+					<subNodes>
+						<!-- Trained behaviour: Clean -->
+						<li Class="ThinkNode_ChancePerHour_Constant">
+							<mtbHours>1</mtbHours>
+							<subNodes>
+								<li Class="ThinkNode_ConditionalRequireCapacities">
+									<requiredCapacities>
+										<li>Manipulation</li>
+									</requiredCapacities>
+									<subNodes>
+										<li Class="ThinkNode_ConditionalTrainableCompleted">
+											<trainable>Haul</trainable>
+											<subNodes>
+												<li Class="ThinkNode_Tagger">
+													<tagToGive>TrainedAnimalBehavior</tagToGive>
+													<subNodes>
+														<li Class="AnimalCleaning.JobGiver_Clean"/>
+													</subNodes>
+												</li>
+											</subNodes>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+	
+	
+<!-- Profaned Skeleton -->
+	<ThinkTreeDef>
+		<defName>SkeletonClean</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>1</insertPriority>
+		<thinkRoot Class="ThinkNode_ConditionalPawnKind">
+			<pawnKind>BotchJob_Skeleton</pawnKind>
+			<subNodes>
+				<li Class="ThinkNode_ConditionalHasFaction">
+					<subNodes>
+						<!-- Trained behaviour: Clean -->
+						<li Class="ThinkNode_ChancePerHour_Constant">
+							<mtbHours>1</mtbHours>
+							<subNodes>
+								<li Class="ThinkNode_ConditionalRequireCapacities">
+									<requiredCapacities>
+										<li>Manipulation</li>
+									</requiredCapacities>
+									<subNodes>
+										<li Class="ThinkNode_ConditionalTrainableCompleted">
+											<trainable>Haul</trainable>
+											<subNodes>
+												<li Class="ThinkNode_Tagger">
+													<tagToGive>TrainedAnimalBehavior</tagToGive>
+													<subNodes>
+														<li Class="AnimalCleaning.JobGiver_Clean"/>
+													</subNodes>
+												</li>
+											</subNodes>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+	
+<!-- pphhyy_OsseousGheist -->
+	<ThinkTreeDef>
+		<defName>GheistClean</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>1</insertPriority>
+		<thinkRoot Class="ThinkNode_ConditionalPawnKind">
+			<pawnKind>pphhyy_OsseousGheist</pawnKind>
+			<subNodes>
+				<li Class="ThinkNode_ConditionalHasFaction">
+					<subNodes>
+						<!-- Trained behaviour: Clean -->
+						<li Class="ThinkNode_ChancePerHour_Constant">
+							<mtbHours>1</mtbHours>
+							<subNodes>
+								<li Class="ThinkNode_ConditionalRequireCapacities">
+									<requiredCapacities>
+										<li>Manipulation</li>
+									</requiredCapacities>
+									<subNodes>
+										<li Class="ThinkNode_ConditionalTrainableCompleted">
+											<trainable>Haul</trainable>
+											<subNodes>
+												<li Class="ThinkNode_Tagger">
+													<tagToGive>TrainedAnimalBehavior</tagToGive>
+													<subNodes>
+														<li Class="AnimalCleaning.JobGiver_Clean"/>
+													</subNodes>
+												</li>
+											</subNodes>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	
+
+</Defs>
