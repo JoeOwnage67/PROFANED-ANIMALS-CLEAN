@@ -6,11 +6,12 @@
 	<url>https://github.com/JoeOwnage67/</url>
 	<supportedVersions>	
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<packageId>JoeDaly.ProfanedPatch</packageId>
 	<loadAfter>
 		<li>BotchJob.Profaned</li>		
-		<li>pphhyy.BoneReapers</li>
+		<li>JTCsBonereapers.FormerlyPPHHYY</li>
 	</loadAfter>
 	<modDependencies>	
 		<li>
@@ -18,8 +19,8 @@
 			<displayName>The Profaned</displayName>
 		</li>			
 		<li>
-			<packageId>pphhyy.BoneReapers</packageId>
-			<displayName>pphhyy BoneReapers</displayName>
+			<packageId>JTCsBonereapers.FormerlyPPHHYY</packageId>
+			<displayName>BoneReapers ReMarrowed</displayName>
 		</li>
 	</modDependencies>
 	<description>I want my tamed ghouls, skeletons and wraiths to clean the base.
