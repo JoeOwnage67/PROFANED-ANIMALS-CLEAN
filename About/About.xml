@@ -11,17 +11,13 @@
 	<packageId>JoeDaly.ProfanedPatch</packageId>
 	<loadAfter>
 		<li>BotchJob.Profaned</li>		
-		<li>JTCsBonereapers.FormerlyPPHHYY</li>
 	</loadAfter>
 	<modDependencies>	
 		<li>
 			<packageId>BotchJob.Profaned</packageId>
-			<displayName>The Profaned</displayName>
-		</li>			
-		<li>
-			<packageId>JTCsBonereapers.FormerlyPPHHYY</packageId>
-			<displayName>BoneReapers ReMarrowed</displayName>
-		</li>
+			<displayName>The Profaned</displayName>			
+      		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3202008037</steamWorkshopUrl>
+		</li>		
 	</modDependencies>
 	<description>I want my tamed ghouls, skeletons and wraiths to clean the base.
 	</description>

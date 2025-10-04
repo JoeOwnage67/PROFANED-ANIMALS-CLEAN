@@ -132,7 +132,7 @@
 	</ThinkTreeDef>
 	
 <!-- pphhyy_OsseousGheist -->
-	<ThinkTreeDef>
+	<ThinkTreeDef MayRequire="jtcsbonereapers.formerlypphhyy">
 		<defName>GheistClean</defName>
 		<insertTag>Animal_PreWander</insertTag>
 		<insertPriority>100</insertPriority>
